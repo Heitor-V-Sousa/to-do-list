@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>To-do List</title>
+</head>
+<body>
+    <header>
+        <h1>Minha To-do List</h1>
+    </header>
+
+    <section>
+        <div>
+            <input type="text" placeholder="Digite uma tarefa..." id="form-tarefa" class="input-texto">
+            <p>Selecione a data:
+                <input type="date" id="form-data">
+            </p>
+            <p>Selecione a hora:
+            <input type="time" class="tamanho-form" id="form-hora">
+            </p>
+            <button onclick="criarTarefa()">Criar tarefa</button>
+        </div>
+        <hr>
+        <div>
+            <ul id="area-tarefa"></ul>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 Heitor V. Sousa</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

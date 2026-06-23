@@ -1,0 +1,87 @@
+body{
+background-color: rgba(247, 230, 156, 0.774);
+font: normal 12pt Arial;
+}
+
+header{
+    text-align: center;
+}
+
+section{
+    background-color: white;
+    max-width: 500px;
+    margin: auto;
+    padding: 20px 20px;
+    border-radius: 15px;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+.input-texto{
+    border-radius: 7px;
+    height: 25px;
+    width: 230px;
+    border: 1px solid black;
+    margin-top: 5px;
+}
+
+.tamanho-form{
+    width: 105px;
+}
+
+#form-data{
+    width: 105px;
+}
+
+button{
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 5px 15px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+button:hover{
+    opacity: .9;
+}
+
+#area-tarefa{
+    text-align:start;
+}
+
+.espaco{
+    list-style: none;
+    margin-top: 25px;
+    border-bottom: 1px solid rgba(170, 156, 156, 0.192);
+    padding-bottom: 5px;
+    width: 90%;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.espaco div{
+    display: flex;
+    flex-direction: column;
+    line-height: 25px;
+    font: normal 12pt Arial;
+    flex:1 ;
+}
+
+.dataHora{
+    color: gray;
+}
+
+li button{
+    background-color: #eb5e45;
+    margin-bottom: 0;
+    padding: 5px 15px;
+}
+
+footer{
+    text-align: center;
+    font-size: 10pt;
+    font-style: italic;
+}
