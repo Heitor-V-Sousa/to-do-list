@@ -6,10 +6,6 @@ O projeto permite criar tarefas com data e horário, marcar tarefas como conclu�
 
 ---
 
-## Demonstração
-
-Adicione aqui uma captura de tela do projeto.
-
 ## Funcionalidades
 
 - Adicionar novas tarefas
