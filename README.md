@@ -26,10 +26,6 @@ O projeto permite criar tarefas com data e hor√°rio, marcar tarefas como conclu√
 
 ---
 
-## Como executar o projeto
-
----
-
 ## Aprendizados
 
 Durante o desenvolvimento deste projeto, pratiquei conceitos importantes de JavaScript, como:
